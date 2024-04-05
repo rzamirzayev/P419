@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#hardwareHeader{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;    
+    padding: 15px;
+    font-size: larger;
+    font-weight: 500;
+    background-color: #313957;
+    color: #ffffff;
+    
+}
+#hardwareHeader div{
+    margin: 5px;
+}
+.hardwareList{
+    display: flex;
+    list-style: none;
+}
+.heading{
+    font-size: 30px;
+}
+.hardwareList li{
+    margin-right: 15px;
+    border: 1px solid #ffffff;
+    padding: 5px 10px;
+}
+.hardwareList li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.hardwareList li:hover{
+    background-color: #ffffff;
+}
+.hardwareList li a:hover{
+    color:  #313957;
+}
+.mainPage{
+    display: flex;
+}
+/* FILTRE SECTION */
+.filtreSection{
+    padding: 3px;
+    padding-left: 5px;
+    background-color: #94858a;
+    width: 15%;
+}
+.filtreHead{
+    position: relative;
+}
+.filtreHead::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    left: 0;
+    bottom: -5px;
+    border-radius: 50%;
+}
+.departmentFiltre{
+    margin-top: 10px;
+}
+.departmentFiltre div{
+    padding: 5px;
+    margin-top: 5px;
+}
+
+/* section2 */
+.productItem{
+    position: relative;
+}
+.itemLink{
+    padding: 5px;
+    background-color: #b1632f;
+    border: 1px solid #ffffff;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: #ffffff;
+    padding: 5px 10px;
+    text-decoration: none;
+    margin: 0px 15px 15px 0px;
+    /* margin: 8px; */
+}
+.productsSection{
+    height: 100vh;
+}
+.productItemList{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.productItem{
+    margin-right: 20px;
+    width: 23%;
+    margin-bottom: 20px;
+}
+.productsSection{
+    width: 85%;
+    padding: 3px;
+    background-color: #dfd599;
+    /* display: flex; */
+}
+.productsTitle{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.productItem{
+    border: 1px solid black;
+    padding: 15px;
+    background-color: #4c7378;
+}
+.productItem p{
+    text-align: center;
+}
+.productItem h5{
+    text-align: center;
+    margin-top: 3px;
+}
+.lorem{
+    margin-bottom: 50px;
+}
