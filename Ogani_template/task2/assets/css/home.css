@@ -1,0 +1,168 @@
+.vegetablet-slide{
+    height: 431px;
+    display: flex;
+    align-items: center;
+    padding-left: 75px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    background-image:url(https://themewagon.github.io/ogani/img/hero/banner.jpg);
+}
+.vegetable-text span{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 4px;
+    color: #7fad39;
+}
+.vegetable-text h2{
+    font-size: 46px;
+    color: #252525;
+    line-height: 52px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+p{
+    font-size: 16px;
+    font-family: "Cairo", sans-serif;
+    color: #6f6f6f;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0 0 15px 0;
+}
+.vegetable-text p{
+    margin-bottom: 35px;
+}
+.vegetable-text a{
+    display: inline-block;
+    font-size: 14px;
+    padding: 10px 28px 10px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 700;
+    background: #7fad39;
+    letter-spacing: 2px;
+}
+.product{
+    background-image: url(https://themewagon.github.io/ogani/img/categories/cat-3.jpg);
+    height: 270px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    
+}
+.product h5{
+    text-align: center;
+    padding:10px  20px !important;
+    bottom: 20px !important;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 18px;
+    color: #1c1c1c;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 12px 0 10px;
+    background: #ffffff;
+    display: block;
+}
+#product-slide a{
+    width: 50px;
+    margin: 10px;
+    background: gray;
+}
+.featured_title li{
+    list-style: none;
+    font-size: 18px;
+    color: #1c1c1c;
+    display: inline-block;
+    margin-right: 25px;
+    position: relative;
+    cursor: pointer;
+}
+.category h3::after{
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+    right: 0;
+    height: 4px;
+    width: 80px;
+    background: #7fad39;
+    content: "";
+    margin: 0 auto;
+}
+.product-image{
+    background-image: url(https://themewagon.github.io/ogani/img/featured/feature-1.jpg);
+    height: 270px;
+    position: relative;
+    overflow: hidden;
+    background-position: center center;
+}
+span{
+    font-weight: 700;
+    color: #252525;
+    font-size: 18px;
+}
+.products{
+    flex-wrap: wrap;
+}
+.productt{
+    margin-bottom: 50px;
+}
+.top_image{
+    background-image: url(https://themewagon.github.io/ogani/img/latest-product/lp-1.jpg);
+    width: 110px;
+    height: 110px;
+    margin-right: 26px;
+}
+#top_rated h5{
+    font-weight: 700;
+    color: #1c1c1c;
+    margin-bottom: 45px;
+    font-size: 24px;
+}
+.toprated_products div{
+    margin-bottom: 20px;
+}
+
+#blog h4{
+    text-align: center;
+    margin-bottom: 70px;
+    color: #1c1c1c;
+    font-weight: 700;
+    position: relative;
+    font-size: 36px;
+}
+.blog_image{
+    height: 208px;
+    width: 370px;
+    background-image: url(https://themewagon.github.io/ogani/img/blog/blog-1.jpg);
+}
+.blog-item-text h5{
+    font-size: 20px;
+    color: #1c1c1c;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+.blog-item-text{
+    padding-top: 25px;
+}
+.blog-item-text li{
+    font-size: 16px;
+    color: #b2b2b2;
+    list-style: none;
+    display: inline-block;
+    margin-right: 15px;
+}
+.blog-item-text ul{
+    margin-bottom: 15px;
+}
+#blog{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
